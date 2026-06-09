@@ -1,0 +1,34 @@
+{
+  "name": "lyc-mall-frontend",
+  "version": "1.0.0",
+  "description": "Lyc Mall Frontend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config webpack.config.js",
+    "build": "webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "ali-oss": "^6.23.0",
+    "axios": "^1.16.1",
+    "element-ui": "^2.15.14",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.3",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.2",
+    "sass": "^1.49.0",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^1.3.0",
+    "vue-loader": "^15.10.1",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.3"
+  }
+}
