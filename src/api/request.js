@@ -22,6 +22,10 @@ service.interceptors.request.use(
 
 service.interceptors.response.use(
   response => {
+    const newToken = response.headers['x-access-token']
+    if (newToken) {
+      store.dispatch('setToken', newToken)
+    }
     return response.data
   },
   error => {
